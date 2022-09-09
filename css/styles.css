@@ -1,0 +1,436 @@
+*  {box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section.superior {
+    color: #F3F3F3; 
+    background-color: #222222;
+    display: flex;
+    font-size: 1rem;
+    height: auto;
+    justify-content: space-between;
+}
+
+header section p {
+    margin: 0px 70px 0px 100px;
+    padding: 0.5rem;
+}
+
+header section.inferior h1 {
+    font-size: rem;
+    padding-top: 0.5rem;
+}
+
+.config {
+    color: #F3F3F3;   
+    text-decoration: none;
+}
+
+header section.superior div {
+    align-items: center;
+    color: #F3F3F3;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0px 100px 0px 30px;
+    padding: 0.5rem;
+    text-decoration: none;
+    width: 200px;
+}
+
+
+
+section.inferior {
+    background-color: #3ef0e1;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    }
+
+section.inferior img {
+    width: 26vw;
+    margin: 10px 30px 10px 5vw;
+}
+
+
+header section.inferior i.fa-bars {
+    display: none;
+}
+
+header section nav {
+    color: #222222;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    margin: 10px 50px 10px 10px;
+    padding: 10px ;
+    width: 50vw;
+}
+
+section nav a {
+    color: #222222;
+    margin: 5px;
+    text-decoration: none;
+}
+
+section nav a i {
+    margin-right: 0.5rem;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section.comedero {
+    align-items: flex-end;
+    background-image: url(../img/principal.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    width: auto;
+}
+
+.intro  {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-around;
+    margin: 2rem ;
+    top: 200px;
+}
+
+p.tipo1 {
+    background-color: #ffffff;
+    border-radius: 7px;
+    font-size: 2rem;
+    padding: 8px 15px 8px 15px;
+    text-align: center;
+}
+
+p.tipo2 {
+    font-size: 22px;
+    text-align: center;
+}
+
+
+button.tipo3 {
+    background-color: #3ef0e1;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.productos div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+section.productos img.huella {
+    margin: 15px;
+    width: 120px;
+}
+
+h1 {
+    color: #3C2313;
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+nav p {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+section.productos article.destacados {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    margin: 60px;
+    padding: 3vw 0vw;
+    justify-content:space-around;
+}
+
+article.destacados figure a  {
+    margin: px 4vw 0px 4vw;
+}
+
+article.destacados img  {
+    width: auto;
+    margin: 1rem;
+}
+
+article.destacados figure figcaption {
+    color: #3C2313;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+figure p.precio {
+    color: #3ef0e1;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+section.contacto h2 {
+    color: #3C2313;
+    font-size: 38px;
+    margin: 26px;
+}
+
+
+section.contacto {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+p.datos {
+    align-items: center;
+    background-color: #3C2313;
+    border-radius: 20px;
+    color: #ffffff;
+    display: flex;
+    font-size: 12px;
+    height: 45px;
+    margin: 9px;
+    padding: 15px;
+    width: 50vw;
+}
+
+div.botones {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.resetear {
+    background-color: #8A8787;
+    border: none;
+    border-radius: 13px;
+    color: #ffffff;
+    font-size: 22px;
+    height: 35px;
+    margin: 5px 5px 5px 20px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+
+.enviar {
+    background-color: #3ef0e1;
+    border: none;
+    border-radius: 13px;
+    color: #ffffff;
+    font-size: 22px;
+    height: 35px;
+    margin: 5px 20px 5px 5px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+
+footer section.suscribir {
+    background-color: #3ef0e1;
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    
+}
+
+
+div.ingreseCorreo1 {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    
+}
+
+div.ingreseCorreo2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+img.carta {
+    width: 40px;
+    margin-right: 8px;
+    margin-left: 15px;
+}
+
+footer section.suscribir p {
+    color: #ffffff;
+    font-size: 1rem;
+    Padding: 1rem;
+}
+
+footer section.suscribir div.ingreseCorreo2 p.correo {
+    background-color: #ffffff;
+    border-radius: 15px;
+    color: #A0A0A0;
+    font-size: 10px;
+    height: 35px;
+    line-height: 25px;
+    padding: 4px 2px 4px 15px;
+    text-decoration: none;
+    width: 20rem;
+}
+
+footer section.suscribir button.enviaSubs {
+    background-color: #3C2313;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 13px;
+    height: 35px;
+    margin-left: 10px;
+    padding: 9px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer section.info {
+    display: flex;
+    background-color: #3C2313;
+    justify-content: space-between;
+}
+
+div.iconos {
+    display: flex;
+    margin: 5px 0px 5px 60px;
+    padding: 5px;
+}
+
+section.info img {
+    margin-right: 25px;
+    width: 80px;
+}
+
+article.izq {
+    margin: 10px 0px 10px 0px;
+}
+
+footer section.info p.contacto1 {
+    color: #ffffff;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+footer section.info p {
+    color: #8A8787;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+section.info img.logofooter {
+    width: 300px;
+    margin: 30px 30px 30px 10px;
+}
+
+
+footer section.final {
+    background-color: #222222;
+    color: #FFFFFF;
+    height: 40px;
+    line-height: 30px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+/* Configuración del responsive  */
+
+@media 
+(max-width: 600px){
+
+header .superior{
+    display: none;
+}
+
+header nav.navega  {
+    display: none;
+}
+
+header section.inferior i.fa-bars {
+    color: #FFFFFF;
+    display: block;
+    font-size: 2rem;
+    margin: 20px 40px 20px 5px;
+}
+
+section.inferior img {
+    width: 40vw;
+}
+
+.intro  {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
+    position: absolute;
+    top: 200px;
+}
+
+section.productos article.destacados {
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+footer section.suscribir {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+}
+
+footer section.info {
+    display: column;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+section.comedero {
+    align-items: center;
+}
+
+footer section.suscribir div.ingreseCorreo2 p.correo {
+    width: 16rem;
+    margin-bottom: 1rem;
+}
+
+footer section.suscribir button.enviaSubs {
+    margin-bottom: 1rem;
+}
+
+}
+
+
+
